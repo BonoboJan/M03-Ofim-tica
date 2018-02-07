@@ -6,4 +6,4 @@
 edad=input("Introduzca la edad: ")
 
 if  edad>=18 and edad<=23 :
-print "Puede entrar en la sesión de jovenes"
+      print "Puede entrar en la sesión de jovenes"
