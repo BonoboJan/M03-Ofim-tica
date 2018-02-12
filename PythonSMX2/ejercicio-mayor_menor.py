@@ -1,4 +1,3 @@
-
 #coding: utf8
 #Jandry Joel Aguilar Serrano
 #08/02/18
@@ -7,11 +6,11 @@ A=input("Introduzca el valor A: ")
 B=input("Introduzca el valor B: ")
 C=input("Introduzca el valor C: ")
 
-if (A==B) or (A==C) :
-    print "Hay dos valores iguales. Introduzca tres valores diferentes."
+if ((A==B) and (A==C)) or ((B==C) and (B==A)) :
+    print "Todos los valores iguales. Introduzca tres valores DIFERENTES."
 else :
-    if ((A==B) and (B==C)) or (:
-       print "Los tres valores son iguales. Introduzca tres valores DIFERENTES."
+    if (A==B or A==C) or (B==C or B==A):
+       print "Hay dos valores iguales. Introduzca tres valores diferentes."
     else :
         if (A>B) and (A>C) :
             if (B<C) :
@@ -30,7 +29,4 @@ else :
                         print "El valor C es el mayor y el B es el menor"
                     else :
                         print "El valor C es el mayor y el A es el menor"
-            
-                    
-            
             
