@@ -16,7 +16,7 @@ if figura=="T" :
     if base < 0 or altura < 0:
         print "Introduzca números positivos."
     else :
-        area=base*altura
+        area=base*altura/2
         print "Un triángulo de base",base,"y altura",altura,"tiene un área de", round(area,2), "."
 elif figura=="C" : 
     radio=input("Escriba el radio: ")
