@@ -8,5 +8,5 @@ while ( salir=="N" ):
     # Incremento
     anyo= anyo +1
     # Activo indicador de salida si toca
-    if ( num>2016 ): # Condición de salida
+    if ( anyo>2016 ): # Condición de salida
         salir = "S"
